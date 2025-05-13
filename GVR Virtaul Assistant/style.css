@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    flex-direction: column;
+    
+}
+.icon{
+    width: 200px;
+}
+.header{
+    /* animation: floatImage 4s ease-in-out infinite;  */
+    position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     /* padding: 2rem 9%; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+}
+
+
+@keyframes floatImage {
+    0% {
+        transform:translateY(0);
+    }
+    50% {
+        transform:translateY(-2.4rem);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+.logo{
+    width: 40vw;
+    animation: floatImage 4s ease-in-out infinite;
+
+}
+@keyframes floatImage {
+    0% {
+        transform:translateY(0);
+    }
+    50% {
+        transform:translateY(-2.4rem);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+ h1{
+    color: aliceblue;
+    /* font-family: "Protest Guerrilla", sans-serif; */
+    font-family: sans-serif;
+  
+}
+#name{
+    color:rgb(212, 43, 122);
+    font-size: 45px;
+   font-weight: bold;
+}
+#va{
+    
+    font-size: 55px; 
+}
+#voice{
+    width: 300px;
+    display: none;  
+}
+.t1{
+    color: #4285F4;
+}
+.t2{
+    color: #4285F4;
+}
+.t3{
+    color: #4285F4;
+}
+.t4{
+    color: #EA4335;
+}
+.t5{
+    color: #EA4335;
+}
+.t6{
+    color: #EA4335;
+}
+.t7{
+    color: #EA4335;
+}
+/* color on assistant */
+.a1{
+    color: #34a853;
+}
+.a2{
+    color: #34a853;
+}
+.a3{
+    color: #34a853;
+}
+.a4{
+    color: #FBBC04;
+}
+.a5{
+    color: #FBBC04;
+}
+.a6{
+    color: #FBBC04;
+}
+.a7{
+    color: #EA4335;
+}
+.a8{
+    color: #EA4335;
+}
+.a9{
+    color: #EA4335;
+}
+#btn{
+width: 50%;
+background: linear-gradient(to right,#4285F4,#34a853,#EA4335,#FBBC04);
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+font-size: 20px;
+border-radius: 20px;
+color: white;
+box-shadow: 2px 2px 10px #4285F4,2px 2px 10px  #34a853 ,2px 2px 10px #EA4335 , 2px 2px 10px #FBBC04 ;
+border: none;
+transition: all 0.5s;
+cursor: pointer;
+}
+#btn:hover{
+
+    box-shadow: 2px 2px 5px #4285F4,2px 2px 5px  #34a853 ,2px 2px 5px #EA4335 , 2px 2px 5px #FBBC04 ;
+    letter-spacing: 2px;
+}
